@@ -23,7 +23,7 @@ class EmployeeModel {
         'name': name,
         'role': role,
         'startDate': startDate,
-        'endDate': endDate,
+        'endDate': endDate== ""?null:endDate,
       };
     } else {
       map = {

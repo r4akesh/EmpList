@@ -55,7 +55,7 @@ class EmployeeListScreen extends StatelessWidget {
                 ...state.previousEmployees.map(
                       (e) => Dismissible(
                     key: ValueKey(e.id),
-                    direction: DismissDirection.startToEnd,
+                    direction: DismissDirection.endToStart,
                     background: Container(
                       color: Colors.red,
                       alignment: Alignment.centerLeft,
