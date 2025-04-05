@@ -46,14 +46,6 @@ class DatabaseHelper {
 
 
 
-    // final result = await db.query('employees');
-    // return result.map((e) => EmployeeModel.fromMap(e)).toList();
-
-
-  // Future<int> insertEmployee(EmployeeModel employee) async {
-  //   final db = await instance.database;
-  //   return await db.insert('employees', employee.toMap());
-  // }
   Future<int> insertEmployee(EmployeeModel employee) async {
     final db = await instance.database;
     return await db.insert('employees', employee.toMap(includeId: false));

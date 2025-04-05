@@ -4,7 +4,7 @@ import 'package:employee/emp_bloc/emp_bloc.dart';
 import 'package:employee/emp_bloc/emp_event.dart';
 import 'package:employee/emp_bloc/emp_state.dart';
 import 'package:employee/screens/add_edit_employee.dart';
-import 'package:employee/widgets/EmployeeCard.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

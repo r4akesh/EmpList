@@ -5,30 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 
 class EmployeeBloc extends Bloc<EmployeeEvent, EmployeeState> {
-  // EmployeeBloc() : super(EmployeeInitial()) {
-  //   on<LoadEmployees>((event, emit) async {
-  //     final employees = await DatabaseHelper.instance.fetchEmployees();
-  //     emit(EmployeeLoaded(employees,employees));
-  //   });
-  //
-  //   on<AddEmployee>((event, emit) async {
-  //     await DatabaseHelper.instance.insertEmployee(event.employee);
-  //     final employees = await DatabaseHelper.instance.fetchEmployees();
-  //     emit(EmployeeLoaded(employees));
-  //   });
-  //
-  //   on<UpdateEmployee>((event, emit) async {
-  //     await DatabaseHelper.instance.updateEmployee(event.employee);
-  //     final employees = await DatabaseHelper.instance.fetchEmployees();
-  //     emit(EmployeeLoaded(employees));
-  //   });
-  //
-  //   on<DeleteEmployee>((event, emit) async {
-  //     await DatabaseHelper.instance.deleteEmployee(event.id);
-  //     final employees = await DatabaseHelper.instance.fetchEmployees();
-  //     emit(EmployeeLoaded(employees));
-  //   });
-  // }
+
 
   final DatabaseHelper dbHelper;
 

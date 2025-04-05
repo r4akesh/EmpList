@@ -5,8 +5,7 @@ abstract class EmployeeState {}
 class EmployeeInitial extends EmployeeState {}
 
 class EmployeeLoaded extends EmployeeState {
-  // final List<EmployeeModel> employees;
-  // EmployeeLoaded(this.employees);
+
   final List<EmployeeModel> currentEmployees;
   final List<EmployeeModel> previousEmployees;
   EmployeeLoaded(this.currentEmployees, this.previousEmployees);

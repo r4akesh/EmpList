@@ -3,8 +3,6 @@ class EmployeeModel {
   final String name;
   final String role;
 
-  // final DateTime startDate;
-  // final DateTime? endDate;
   final String startDate;
   final String? endDate;
 
@@ -49,10 +47,7 @@ class EmployeeModel {
       role: map['role'],
       startDate: map['startDate'],
       endDate: aa,
-     // endDate: map['endDate'] != null ? map['endDate'] : null,
-      //  endDate: map['endDate'],
-      // startDate: DateTime.parse(map['startDate']),
-      // endDate: map['endDate'] != null ? DateTime.parse(map['endDate']) : null,
+
     );
   }
 }
