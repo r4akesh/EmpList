@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    debugPrint("333333");
     return BlocProvider(
       create: (_) => EmployeeBloc(DatabaseHelper.instance)..add(LoadEmployees()),
       child: MaterialApp(
